@@ -90,7 +90,7 @@ class ChinaService @Inject constructor(
             location.latitude,
             location.longitude,
             location.isCurrentPosition,
-            locationKey = "weathercn%3A$locationKey",
+            locationKey = "weathercn:$locationKey",
             days = 15,
             appKey = CHINA_APP_KEY,
             sign = CHINA_SIGN,
@@ -104,7 +104,7 @@ class ChinaService @Inject constructor(
                 context.currentLocale.toString().lowercase(),
                 isGlobal = false,
                 appKey = CHINA_APP_KEY,
-                locationKey = "weathercn%3A$locationKey",
+                locationKey = "weathercn:$locationKey",
                 sign = CHINA_SIGN
             )
         } else {
@@ -162,7 +162,7 @@ class ChinaService @Inject constructor(
                 location.latitude,
                 location.longitude,
                 location.isCurrentPosition,
-                locationKey = "weathercn%3A$locationKey",
+                locationKey = "weathercn:$locationKey",
                 days = 15,
                 appKey = CHINA_APP_KEY,
                 sign = CHINA_SIGN,
@@ -182,7 +182,7 @@ class ChinaService @Inject constructor(
                 context.currentLocale.toString().lowercase(),
                 isGlobal = false,
                 appKey = CHINA_APP_KEY,
-                locationKey = "weathercn%3A$locationKey",
+                locationKey = "weathercn:$locationKey",
                 sign = CHINA_SIGN
             )
         } else {
